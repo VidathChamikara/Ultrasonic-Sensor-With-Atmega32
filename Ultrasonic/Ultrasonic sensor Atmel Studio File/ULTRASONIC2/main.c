@@ -5,7 +5,7 @@
  * Author : ASUS
  */ 
 #ifndef F_CPU
-#define F_CPU 1000000UL // 16 MHz clock speed
+#define F_CPU 16000000UL // 16 MHz clock speed
 #endif
 
 
@@ -35,7 +35,7 @@
 #define US_ERROR		-1      // we're defining two more variables two know if the ultrasonic sensor is working or not
 #define	US_NO_OBSTACLE	-2
 
-int distance, previous_distance,x;
+int distance, previous_distance;
 
 
 
@@ -236,14 +236,13 @@ int main()
 			else 
 			{
 				
+				distance=50-(r*0.034/2.0);	// This will give the distance in centimeters
 				
-				distance=(r*0.034/2.0);	// This will give the distance in centimeters
-				
+			   
 				
 				if (distance != previous_distance)    // the LCD screen only need to be cleared if the distance is changed otherwise it is not required
 				{
 					lcd_clear();
-					
 				}
 				
 				lcd_setCursor(1, 1);      // set the row and column to display the data
@@ -276,10 +275,7 @@ int main()
 				}
 				 
 			}
-		
-		
 		}
 			
 	}
-	
 }

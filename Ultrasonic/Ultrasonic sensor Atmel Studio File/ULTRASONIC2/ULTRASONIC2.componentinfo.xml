@@ -26,13 +26,13 @@
 					<SourcePath></SourcePath>
 				</d4p1:anyType>
 				<d4p1:anyType i:type="FileInfo">
-					<AbsolutePath>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\include\avr\iom64.h</AbsolutePath>
+					<AbsolutePath>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\include\avr\iom32.h</AbsolutePath>
 					<Attribute></Attribute>
 					<Category>header</Category>
 					<Condition>C</Condition>
-					<FileContentHash>Y/G/SrmsrnP+QN4tP0KEBw==</FileContentHash>
+					<FileContentHash>lmy51QeNKtBwSFwznyeJmw==</FileContentHash>
 					<FileVersion></FileVersion>
-					<Name>include/avr/iom64.h</Name>
+					<Name>include/avr/iom32.h</Name>
 					<SelectString></SelectString>
 					<SourcePath></SourcePath>
 				</d4p1:anyType>
@@ -41,7 +41,7 @@
 					<Attribute>template</Attribute>
 					<Category>source</Category>
 					<Condition>C Exe</Condition>
-					<FileContentHash>KjvOcFWd++tbnsEMfVPd/w==</FileContentHash>
+					<FileContentHash>tajaI3g7JOvM2zkgm8Z85w==</FileContentHash>
 					<FileVersion></FileVersion>
 					<Name>templates/main.c</Name>
 					<SelectString>Main file (.c)</SelectString>
@@ -59,13 +59,13 @@
 					<SourcePath></SourcePath>
 				</d4p1:anyType>
 				<d4p1:anyType i:type="FileInfo">
-					<AbsolutePath>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\gcc\dev\atmega64</AbsolutePath>
+					<AbsolutePath>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\gcc\dev\atmega32</AbsolutePath>
 					<Attribute></Attribute>
 					<Category>libraryPrefix</Category>
 					<Condition>GCC</Condition>
 					<FileContentHash i:nil="true" />
 					<FileVersion></FileVersion>
-					<Name>gcc/dev/atmega64</Name>
+					<Name>gcc/dev/atmega32</Name>
 					<SelectString></SelectString>
 					<SourcePath></SourcePath>
 				</d4p1:anyType>
@@ -74,7 +74,7 @@
 			<PackPath>C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/Atmel.ATmega_DFP.pdsc</PackPath>
 			<PackVersion>1.6.364</PackVersion>
 			<PresentInProject>true</PresentInProject>
-			<ReferenceConditionId>ATmega64</ReferenceConditionId>
+			<ReferenceConditionId>ATmega32</ReferenceConditionId>
 			<RteComponents xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 				<d4p1:string></d4p1:string>
 			</RteComponents>
