@@ -236,7 +236,7 @@ int main()
 			else 
 			{
 				
-				distance=50-(r*0.034/2.0);	// This will give the distance in centimeters
+				distance=(r*0.034/2.0);	// This will give the distance in centimeters
 				
 			   
 				
@@ -259,20 +259,7 @@ int main()
 				previous_distance = distance;
 				_delay_ms(30);
 				
-				if(distance<10)
-				{
-					lcd_setCursor(1, 2);
-					lcd_print("WATER LOW!!!");
-					PORTA=(1<<PINA0);
-					
-				}
-				if(distance>=10)
-				{
-					lcd_setCursor(1, 2);
-					lcd_print("ENOUGH WATER");
-					PORTA=(0<<PINA0);
-					
-				}
+				
 				 
 			}
 		}
